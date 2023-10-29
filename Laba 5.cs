@@ -25,9 +25,4 @@ for (int i = 0;i < N ; i++)
 int temp = min;
 min = max;
 max = temp;
-for (int i = 0; i<N ; i++)
-{
-    mas[i] = i;
-    Console.WriteLine(mas[i]);
-}
-
+Console.WriteLine($"min: {min} and max: {max}");
